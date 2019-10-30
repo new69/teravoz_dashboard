@@ -1,3 +1,5 @@
+**This project depends on [Server](https://github.com/new69/teravoz-challenger) is up**
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
