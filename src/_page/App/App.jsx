@@ -21,6 +21,7 @@ const App = () => {
           return (
             <PhoneCall
               key={key}
+              data-testid="phone-call"
               callId={item.call_id}
               type={item.type}
               theirNumber={item.their_number}
@@ -39,7 +40,7 @@ const App = () => {
   useEffect(getCalls, []);
 
   return (
-    <div className="app">
+    <div data-testid="app-container" className="app">
       {phoneCalls}
     </div>
   );

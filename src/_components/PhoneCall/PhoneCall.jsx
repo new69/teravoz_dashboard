@@ -4,7 +4,7 @@ import './PhoneCall.css';
 
 const PhoneCall = (props) => {
   return (
-    <div className="phone-call">
+    <div data-testid={props["data-testid"]} className="phone-call">
       <h4>
         {`Call ID: ${props.callId}`}
       </h4>
